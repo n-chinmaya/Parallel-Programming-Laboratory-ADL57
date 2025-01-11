@@ -77,13 +77,13 @@ gcc -fopenmp <file_name.c> -o <file_name.out>
 ## Files Included
 
 - CUDA Programs:
-  - `(1)cuda_add_two_numbers.cu`
-  - `(2)cuda_vector_add.cu`
-  - `(3)cuda_matrix_add.cu`
-  - `(4)cuda_devive_info.cu`
-  - `(5)cuda_matrix_multiplication.cu`
-  - `(6)cuda_dot_product.cu`
-  - `(7)cuda_welcome_parallel.cu`
+  - [`(1)cuda_add_two_numbers.cu`](https://github.com/n-chinmaya/Parallel-Programming-Laboratory-ADL57/blob/main/PART%20A%20(OpenMP)/(1)pi.c)
+  - [`(2)cuda_vector_add.cu`](https://github.com/n-chinmaya/Parallel-Programming-Laboratory-ADL57/blob/main/PART%20A%20(OpenMP)/(2)env.c)
+  - [`(3)cuda_matrix_add.cu`](https://github.com/n-chinmaya/Parallel-Programming-Laboratory-ADL57/blob/main/PART%20A%20(OpenMP)/(3)add_arrays.c)
+  - [`(4)cuda_devive_info.cu`](https://github.com/n-chinmaya/Parallel-Programming-Laboratory-ADL57/blob/main/PART%20A%20(OpenMP)/(4)sub_arrays.c)
+  - [`(5)cuda_matrix_multiplication.cu`](https://github.com/n-chinmaya/Parallel-Programming-Laboratory-ADL57/blob/main/PART%20A%20(OpenMP)/(5)sum_arrays_reduction_clause.c)
+  - [`(6)cuda_dot_product.cu`](https://github.com/n-chinmaya/Parallel-Programming-Laboratory-ADL57/blob/main/PART%20A%20(OpenMP)/(6)matrix_multiplication.c)
+  - [`(7)cuda_welcome_parallel.cu`](https://github.com/n-chinmaya/Parallel-Programming-Laboratory-ADL57/blob/main/PART%20A%20(OpenMP)/(7)largest_element.c)
     
 - OpenMP Programs:
   - `(1)pi.c`
