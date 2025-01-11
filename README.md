@@ -68,7 +68,7 @@ gcc -fopenmp <file_name.c> -o <file_name.out>
 ---
 
 ## Follow Me
-If you found these programs helpful, please consider following me on GitHub for more such content:
+If you found these programs helpful, please consider following me on GitHub for more help from me:
 
 [GitHub Profile](https://github.com/Srinidhi-070)
 
