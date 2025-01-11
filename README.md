@@ -15,7 +15,7 @@
 
 ## How to Run the Programs
 
-### CUDA Programs
+### CUDA Programs (Locally)
 
 1. Open a terminal.
 2. Navigate to the directory containing the `.cu` files.
@@ -27,6 +27,35 @@ Example:
 nvcc -o <file_name.cu> <file_name.out>
 
 ./<file_name.out>
+```
+
+### CUDA Programs (Google Colab)
+
+1. Open Google Colab and change the runtime type to **GPU**:
+   - Go to **Runtime > Change Runtime Type > Hardware Accelerator > GPU**.
+2. Install `nvcc4jupyter` using the following command:
+   ```bash
+   !pip install nvcc4jupyter
+   ```
+3. Load the `nvcc4jupyter` extension:
+   ```bash
+   %load_ext nvcc4jupyter
+   ```
+4. Add `%%cuda` at the beginning of each CUDA code cell to compile and run the code.
+
+Example:
+```cuda
+%%cuda
+#include <stdio.h>
+
+__global__ void add(int *a, int *b, int *c) {
+    int tid = threadIdx.x;
+    c[tid] = a[tid] + b[tid];
+}
+
+int main() {
+    // CUDA code here
+}
 ```
 
 ### OpenMP Programs
@@ -78,3 +107,4 @@ If you found these programs helpful, please consider following me on GitHub for 
 This repository is for educational purposes only. If you use this code to cheat in your internals, **I am not responsible for any consequences**. Please do not blame me for any issues arising from copying this repository.
 
 Thank you for your understanding and support! 😊
+
