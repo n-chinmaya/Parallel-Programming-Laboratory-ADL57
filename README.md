@@ -1,5 +1,5 @@
-## CUDA and OpenMP Programs
-# Below are the instructions on how to run these programs. 
+# CUDA and OpenMP Programs
+## Below are the instructions on how to run these programs. 
 
 ---
 
