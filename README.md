@@ -70,11 +70,11 @@ gcc -fopenmp <file_name.c> -o <file_name.out>
 ## Follow Me
 If you found these programs helpful, please consider following me on GitHub for more such content:
 
-[GitHub Profile](https://github.com/YourGitHubUsername)
+[GitHub Profile](https://github.com/Srinidhi-070)
 
 ---
 
 ## Disclaimer
-This repository is for educational purposes only. If you copy or use this code in your internals, **I am not responsible for any consequences**. Please do not blame me for any issues arising from copying this repository.
+This repository is for educational purposes only. If you use this code to cheat in your internals, **I am not responsible for any consequences**. Please do not blame me for any issues arising from copying this repository.
 
 Thank you for your understanding and support! 😊
