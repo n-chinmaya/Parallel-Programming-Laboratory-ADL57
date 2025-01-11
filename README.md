@@ -48,18 +48,22 @@ gcc -fopenmp <file_name.c> -o <file_name.out>
 ## Files Included
 
 - CUDA Programs:
-  - `add_two_numbers.cu`
-  - `vector_addition.cu`
-  - `matrix_addition.cu`
-  - `device_info.cu`
-  - `matrix_multiplication.cu`
-  - `dot_product.cu`
-  - `welcome_parallel.cu`
-
+  - `(1)cuda_add_two_numbers.cu`
+  - `(2)cuda_vector_add.cu`
+  - `(3)cuda_matrix_add.cu`
+  - `(4)cuda_devive_info.cu`
+  - `(5)cuda_matrix_multiplication.cu`
+  - `(6)cuda_dot_product.cu`
+  - `(7)cuda_welcome_parallel.cu`
+    
 - OpenMP Programs:
-  - `array_sum.c`
-  - `matrix_multiplication.c`
-  - `largest_element.c`
+  - `(1)pi.c`
+  - `(2)env.c`
+  - `(3)add_arrays.c`
+  - `(4)sub_arrays.c`
+  - `(5)sum_arrays_reduction_clause.c`
+  - `(6)matrix_multiplication.c`
+  - `(7)largest_element.c`
 
 ---
 
