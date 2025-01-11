@@ -67,9 +67,9 @@ int main() {
 
 Example:
 ```bash
-gcc -fopenmp <file_name.c> -o <file_name.out>
+gcc -fopenmp -o <file_name> <file_name>.c
 
-./<file_name.out>
+./<file_name>
 ```
 
 ---
