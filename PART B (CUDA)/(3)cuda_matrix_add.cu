@@ -38,8 +38,7 @@ int main() {
 
     // Define the block and grid sizes
     dim3 threadsPerBlock(16, 16); // 16x16 threads per block
-    dim3 blocksPerGrid((N + threadsPerBlock.x - 1) / threadsPerBlock.x,
-                       (N + threadsPerBlock.y - 1) / threadsPerBlock.y);
+    dim3 blocksPerGrid((N + threadsPerBlock.x - 1) / threadsPerBlock.x, (N + threadsPerBlock.y - 1) / threadsPerBlock.y);
 
     // Launch the kernel
     matrixAdd<<<blocksPerGrid, threadsPerBlock>>>(dev_A, dev_B, dev_C, N);
